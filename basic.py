@@ -23,11 +23,11 @@ print(" Now let' try to find you a good movie to watch: ")
 age = int(input("How old are you? "))
 
 if age <= 13:
-    print(" We recommend an animated movie");
+    print(" We recommend an animated movie")
 elif age <= 17:
-    print(" We recommend a superhero movie");
+    print(" We recommend a superhero movie")
 elif age >= 18:
-    print(" We recommend a thriller");
+    print(" We recommend a thriller")
 else: 
     print(" We need your age to recommend a valid movie")
 
